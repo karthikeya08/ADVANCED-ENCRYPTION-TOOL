@@ -3,7 +3,7 @@ A TOOL TO ENCRYPT AND DECRYPT FILES USING ADVANCED ALGORITHMS LIKE AES-256
 
 NAME : NARAM KARTHIEYA
 
-INTERN ID : CT08TPH
+INTERN ID : CT06DF2952
 
 DOMAIN : CYBER SECURITY AND ETHICAL HACKING
 
@@ -35,5 +35,14 @@ Encryption: The tool generates a random 256-bit key, encrypts the file with AES-
 
 Decryption: Reads the IV from the encrypted file, decrypts the content using the provided key, and saves the original file.
 
+# Security Notes
 
+Key Management: Ensure that encryption keys are stored securely and not hardcoded.
 
+IV Handling: The IV is randomly generated for each encryption and stored with the ciphertext.
+
+Padding Scheme: Uses space padding; can be modified to PKCS7 padding.
+
+# Legal Disclaimer
+
+This tool is intended for legal and ethical use only. Unauthorized encryption or decryption of files may violate data privacy laws.
